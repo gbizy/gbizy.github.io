@@ -1,1 +1,0 @@
-# gbizy.github.io
