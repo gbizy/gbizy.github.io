@@ -11,11 +11,11 @@ import Contact from "./pages/Contact.tsx";
 
 const router = createBrowserRouter([
   {
-    path: ".",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: ".",
+        path: "/",
         element: <Home />,
       },
       {

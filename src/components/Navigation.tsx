@@ -13,7 +13,7 @@ const Navigation = () => {
     <nav>
       <div className="container">
         {/* Logo */}
-        <Link className="logo" to="/vite-deploy/">
+        <Link className="logo" to="/">
           HOME
         </Link>
 
@@ -25,24 +25,24 @@ const Navigation = () => {
         {/* Menu Items */}
         <ul className={`menu ${showMenu ? "show" : ""}`}>
           <li>
-            <Link to="/vite-deploy/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link
               to="/route"
               onClick={(event) => {
                 event.preventDefault();
-                window.open("/vite-deploy/GuyResume.pdf");
+                window.open("/GuyResume.pdf");
               }}
             >
               Resume
             </Link>
           </li>
           <li>
-            <Link to="/vite-deploy/mywork">My Work</Link>
+            <Link to="/mywork">My Work</Link>
           </li>
           <li>
-            <Link to="/vite-deploy/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
