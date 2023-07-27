@@ -7,12 +7,13 @@
 
       .cls-2 {
         font-size: 162.398px;
-        fill: #fed72b;
+        mix-blend-mode: darken;
+        fill: #0050ff;
         text-anchor: middle;
         font-family: BlambotClassicBBW00-Regular;
       }
     </style>
   </defs>
-  <circle class="cls-1" cx="66.5" cy="66.5" r="66.5"/>
-  <text id="G" class="cls-2" transform="translate(66.842 126.648) scale(0.936)"><tspan x="0">G</tspan></text>
+  <circle class="cls-1" cx="66.5" cy="66.688" r="57.25"/>
+  <text id="G" class="cls-2" transform="translate(66.824 124.408) scale(0.887)"><tspan x="0">G</tspan></text>
 </svg>
