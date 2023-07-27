@@ -9,11 +9,15 @@ const Navigation = () => {
     setShowMenu(!showMenu);
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <nav>
       <div className="container">
         {/* Logo */}
-        <Link className="logo" to="/">
+        <Link className="logo" to="/" onClick={closeMenu}>
           HOME
         </Link>
 
@@ -25,13 +29,16 @@ const Navigation = () => {
         {/* Menu Items */}
         <ul className={`menu ${showMenu ? "show" : ""}`}>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={closeMenu}>
+              About
+            </Link>
           </li>
           <li>
             <Link
               to="/route"
               onClick={(event) => {
                 event.preventDefault();
+                closeMenu();
                 window.open("/GuyResume.pdf");
               }}
             >
@@ -39,10 +46,14 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            <Link to="/mywork">My Work</Link>
+            <Link to="/mywork" onClick={closeMenu}>
+              My Work
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={closeMenu}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

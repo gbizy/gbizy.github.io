@@ -104,11 +104,17 @@ ul li .submit {
   height: 40px;
   padding: 8px 10px;
   background: #fff;
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
   .container-contact-page {
     width: auto;
+  }
+
+  .text-zone {
+    position: relative;
+    z-index: -1;
   }
 
   .Contact-Form {
