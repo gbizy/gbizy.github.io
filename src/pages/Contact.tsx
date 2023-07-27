@@ -6,27 +6,27 @@ import "./Contact.css";
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = async (e: { preventDefault: () => void }) => {
+  const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     if (form.current) {
-      try {
-        const result = await emailjs.sendForm(
+      emailjs
+        .sendForm(
           "service_fw45l3w",
           "template_f0712kj",
           form.current,
           "fFSlDvV0ymJP0Fqft"
+        )
+        .then(
+          (result) => {
+            form.current?.reset();
+            console.log(result.text);
+            alert("Message successfully sent!");
+          },
+          (error) => {
+            console.log(error.text);
+          }
         );
-        console.log(result.text);
-        alert("Message successfully sent!");
-        form.current.reset();
-      } catch (error: unknown) {
-        let errorMessage = "failed to do something exceptional";
-        if (error instanceof Error) {
-          errorMessage = error.message;
-        }
-        console.log(errorMessage);
-      }
     }
   };
 
