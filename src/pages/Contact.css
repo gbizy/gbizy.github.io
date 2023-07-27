@@ -112,7 +112,7 @@ ul li .submit {
     width: auto;
   }
 
-  .text-zone {
+  .text-zone h1 {
     position: relative;
     z-index: -1;
   }
