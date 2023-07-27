@@ -1,43 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="133" viewBox="0 0 133 133">
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="133" viewBox="0 0 133 133">
   <defs>
     <style>
       .cls-1 {
-        fill: #aba79b;
-        fill-rule: evenodd;
-        filter: url(#filter);
+        fill: #fff;
       }
 
       .cls-2 {
         font-size: 162.398px;
-        filter: url(#filter-2);
         fill: #fed72b;
         text-anchor: middle;
-        font-family: Bahnschrift;
-        font-weight: 700;
+        font-family: BlambotClassicBBW00-Regular;
       }
     </style>
-    <filter id="filter" x="0" y="13.781" width="133" height="125.438" filterUnits="userSpaceOnUse">
-      <feImage preserveAspectRatio="none" x="0" y="13.7812" width="133" height="125.438" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMzIiBoZWlnaHQ9IjEyNS40MzgiIHZpZXdCb3g9IjAgMCAxMzMgMTI1LjQzOCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSI0LjkxMSIgeDI9IjEzMyIgeTI9IjEyMC41MjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjMyIiBzdG9wLWNvbG9yPSIjNzVmOGQyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjNjA5NmRiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC42OCIgc3RvcC1jb2xvcj0iIzJhZTNmYyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTMzIiBoZWlnaHQ9IjEyNS40MzgiLz4KPC9zdmc+Cg=="/>
-      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-    </filter>
-    <filter id="filter-2" x="24" y="5" width="86" height="116" filterUnits="userSpaceOnUse">
-      <feGaussianBlur result="blur" stdDeviation="1.667" in="SourceAlpha"/>
-      <feComposite result="composite"/>
-      <feComposite result="composite-2"/>
-      <feComposite result="composite-3"/>
-      <feFlood result="flood" flood-color="#ffd72c"/>
-      <feComposite result="composite-4" operator="in" in2="composite-3"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-      <feBlend result="blend-2" in="SourceGraphic"/>
-      <feGaussianBlur result="blur-2" stdDeviation="4.899" in="SourceAlpha"/>
-      <feFlood result="flood-2" flood-color="#2b2137" flood-opacity="0.4"/>
-      <feComposite result="composite-5" operator="out" in2="blur-2"/>
-      <feOffset result="offset"/>
-      <feComposite result="composite-6" operator="in" in2="SourceAlpha"/>
-      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
-    </filter>
   </defs>
-  <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M132.991,15.367L65.233,139.206-0.008,13.794Z"/>
-  <text id="G" class="cls-2" x="66.667" y="123.333"><tspan x="66.667">G</tspan></text>
+  <circle class="cls-1" cx="66.5" cy="66.5" r="66.5"/>
+  <text id="G" class="cls-2" transform="translate(66.842 126.648) scale(0.936)"><tspan x="0">G</tspan></text>
 </svg>
