@@ -31,13 +31,16 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
+  nav {
+    z-index: 1;
+    position: relative;
+  }
   .title-text h1 {
     font-weight: 900;
     font-size: 50px;
   }
   .video-grid {
     grid-template-columns: 1fr;
-    z-index: -1;
     position: relative;
   }
 
