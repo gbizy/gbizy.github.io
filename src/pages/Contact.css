@@ -166,12 +166,14 @@ ul li .submit {
 
 @media only screen and (max-width: 768px) {
   #contact {
-    grid-template-columns: 1fr;
-    margin-right: 0;
-    justify-items: center;
-    grid-gap: 10px;
-    align-items: center;
-    padding-top: 5%;
+    padding: 40px 0;
+    position: relative;
+    min-height: 100vh;
+    display: inline;
+    align-content: center;
+    margin-left: 0;
+    font-family: "Courier New", Courier, monospace;
+    overflow-y: auto;
   }
 
   .container-contact-page {
