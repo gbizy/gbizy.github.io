@@ -29,18 +29,19 @@ export default function Contact() {
         );
     }
   };
-
-  document.body.style.background = "#cedbe6";
   return (
     <>
       <div className="container-contact-page">
         <div className="text-zone">
           <h1>Contact Me</h1>
-          <p>
-            I am interested in freelance opportunities and contracts. If you
-            have any requests or questions, don't hesitate to contact me using
-            the form below.
-          </p>
+          <div className="mail_here">
+            <h2>
+              [~]${" "}
+              <span style={{ color: "yellow" }}>
+                mail -s "Important Thing Here" you@example.com
+              </span>
+            </h2>
+          </div>
           <div className="Contact-Form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>

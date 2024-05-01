@@ -1,28 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;400&display=swap");
 
-body {
-  background: linear-gradient(90deg, #cedbe6 35%, #fff 0%);
-}
-
 /* Hero Section */
 #hero {
   display: flex;
-  /* background: linear-gradient(90deg, #cedbe6 35%, #fff 0%); */
   margin: 0;
   justify-content: center;
+  background: #171717;
 }
 
 #hero .grid-container {
-  margin-right: 20%;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
   justify-items: center;
   align-items: center;
 }
 
-.grid-profile {
+/* .grid-profile {
   text-align: center;
   color: #000000;
   font-weight: 900;
@@ -32,8 +26,9 @@ body {
   height: 83%;
   justify-self: end;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
+/*
 .grid-profile h1 {
   font-size: 32px;
   font-weight: 900;
@@ -63,7 +58,6 @@ body {
 }
 
 .media-container {
-  background-color: #fff;
   position: relative;
   margin-bottom: 20%;
 }
@@ -72,14 +66,25 @@ body {
   width: 40px;
   height: 40px;
 }
+*/
+
+.animation-display img {
+  max-width: 35%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
 
 .grid-hello {
   font-size: 24px;
-  color: #000000;
+  color: #01a2ea;
   text-align: left;
   width: 600px;
-  padding: 0px;
-  justify-self: left;
+  justify-self: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 20%;
 }
 
 .grid-hello h1 {
@@ -89,8 +94,37 @@ body {
   text-align: left;
 }
 
-.grid-hello h2 {
+.whoani {
+  width: fit-content;
+}
+
+.whoani h2 {
+  position: relative;
   margin-bottom: 30px;
+  overflow: hidden;
+  border-right: 20px solid #01a2ea;
+  white-space: nowrap;
+  animation: typewriter 2s steps(8) 1s 1 normal both,
+    blinkTextCursor 1000ms linear infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkTextCursor {
+  0%,
+  50% {
+    border-right-color: transparent;
+  }
+  51%,
+  100% {
+    border-right-color: #01a2ea;
+  }
 }
 
 .grid-hello .buttoncontainer {
@@ -99,9 +133,16 @@ body {
 }
 
 .grid-hello p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
+#hero a {
+  color: #01a2ea;
+}
+#hero a:hover {
+  color: #9ed2ea;
+}
+/*
 .button1 {
   border: 1px solid #0050ff;
   background-color: #0050ff;
@@ -134,10 +175,10 @@ body {
   border: 1px solid #000000;
   color: white;
 }
-
+*/
 @media only screen and (max-width: 768px) {
   #hero {
-    background: #cedbe6;
+    background: #171717;
   }
 
   #hero .grid-container {
@@ -146,11 +187,13 @@ body {
     justify-items: center;
     grid-gap: 10px;
     align-items: center;
+    padding-top: 5%;
   }
-  .grid-profile {
-    width: 100%;
-    height: auto;
-    background: #fff;
+  #hero .whoani {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: #fff;*/
   }
   #hero .grid-hello {
     width: 90%;
@@ -166,30 +209,14 @@ body {
     width: 56%;
   }
 
-  .grid-profile hr {
-    margin: 20px auto;
-  }
-
   .grid-hello h1 {
     font-size: 60px;
     margin: 20px 0;
     text-align: center;
   }
 
-  .button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .button1,
-  .button2 {
-    margin-bottom: 10px;
-  }
-
   .grid-hello p {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -211,7 +238,6 @@ body {
   }
   .grid-profile {
     height: 85%;
-    background: #f4ece6;
   }
 
   .grid-profile h1 {

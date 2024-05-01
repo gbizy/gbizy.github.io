@@ -1,7 +1,9 @@
 /* Navigation */
 nav {
-  background-color: #fff;
+  background: #171717;
   padding: 1px 100;
+  border: #01a2ea 6px solid;
+  font-family: "Arial", sans-serif;
 }
 
 nav .container {
@@ -11,7 +13,7 @@ nav .container {
 }
 
 .home a {
-  color: #000000;
+  color: #01a2ea;
   font-weight: 900;
   list-style: none;
   text-decoration: none;
@@ -20,9 +22,8 @@ nav .container {
 
 .logo {
   font-size: 24px;
-  color: #000000;
+  color: #01a2ea;
   text-decoration: none;
-  font-weight: 900;
 }
 
 .menu {
@@ -35,10 +36,11 @@ nav .container {
 
 .menu li {
   margin-left: 20px;
+  margin-bottom: 0px;
 }
 
 .menu li a {
-  color: #000000;
+  color: #01a2ea;
   text-decoration: none;
 }
 
@@ -82,12 +84,12 @@ nav .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #171717;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 6px solid #01a2ea;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -106,18 +108,19 @@ nav .container {
     display: block;
     font-size: 24px;
     cursor: pointer;
+    color: #01a2ea;
   }
 
   .menu.show {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #171717;
     position: absolute;
     top: 100px;
     left: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 6px solid #01a2ea;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -130,5 +133,6 @@ nav .container {
 @media screen and (min-width: 769px) {
   .mobile-menu {
     display: none;
+    color: #01a2ea;
   }
 }

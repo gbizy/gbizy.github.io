@@ -39,7 +39,7 @@ const Navigation = () => {
               onClick={(event) => {
                 event.preventDefault();
                 closeMenu();
-                window.open("/GuyResume.pdf");
+                window.open("/guy_benyishai_resume.pdf");
               }}
             >
               Resume
