@@ -92,9 +92,9 @@ body {
 /* MOBILE */
 @media only screen and (max-width: 768px) {
   #about {
-    position: relative;
     padding: 20px 0; /* Adjust the top and bottom padding for better spacing */
     margin: auto auto;
+    position: relative;
     z-index: -1;
   }
 

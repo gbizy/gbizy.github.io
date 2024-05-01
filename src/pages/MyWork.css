@@ -90,29 +90,23 @@
 @media only screen and (max-width: 768px) {
   #mywork {
     padding: 40px 0;
-    position: fixed;
+    position: relative;
     min-height: 100vh;
-    display: flex;
+    display: inline;
     align-content: center;
     margin-left: 0;
     font-family: "Courier New", Courier, monospace;
     overflow-y: auto;
   }
-
+  #mywork h1 {
+    font-size: 50px;
+  }
   nav {
     z-index: 1;
     position: relative;
   }
 
-  .video-grid {
-    grid-template-columns: 1fr;
-    position: relative;
-  }
-
-  .insta-section h2 {
-    margin-top: 20px;
-  }
-  .work-section h2 {
-    margin: 20px;
+  .examples {
+    display: inline-block;
   }
 }

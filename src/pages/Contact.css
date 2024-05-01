@@ -166,10 +166,12 @@ ul li .submit {
 
 @media only screen and (max-width: 768px) {
   #contact {
-    position: relative;
-    padding: 20px 0; /* Adjust the top and bottom padding for better spacing */
-    margin: auto auto;
-    z-index: -1;
+    grid-template-columns: 1fr;
+    margin-right: 0;
+    justify-items: center;
+    grid-gap: 10px;
+    align-items: center;
+    padding-top: 5%;
   }
 
   .container-contact-page {
@@ -179,12 +181,29 @@ ul li .submit {
       minmax(500px, 1fr)
     ); /* Change to a single column layout */
     grid-gap: 30px;
+    width: 20%;
+    margin-right: 38%;
+    position: fixed;
+    justify-content: normal;
+    padding-top: 50px;
+    padding-left: 2%;
+  }
+
+  .text-zone {
+    width: 75%;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   .text-zone h1 {
     font-size: 50px;
     position: relative;
     z-index: -1;
+    padding-left: 5%;
+  }
+
+  .mail_here {
+    width: 95%;
   }
 
   .mail_here h2 {
@@ -198,5 +217,6 @@ ul li .submit {
     align-content: center;
     position: relative;
     margin: auto auto;
+    color: #fff;
   }
 }

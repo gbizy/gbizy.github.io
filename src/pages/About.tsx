@@ -50,7 +50,7 @@ export default function About() {
             </div>
             <div className="alwaysPlug">
               <p>
-                <br></br>
+                <br />
                 To learn more about what I have accomplished, please check out
                 my{" "}
                 <Link

@@ -29,7 +29,7 @@ export default function MyWork() {
               {/* │   ├───<a href="linkielink">The Intersection of Geography & Cybersecurity</a>  <br/> */}
               │ ├───
               <a
-                href="https://www.linkedin.com/posts/gbeny_cybersecurity-infosec-cybersecurityawareness-activity-7127708648000081920-PIIx?utm_source=share&utm_medium=member_desktop"
+                href="https://medium.com/@guyby/how-a-fake-app-successfully-social-engineered-gen-z-723d5ddf7fa3"
                 target="_blank"
               >
                 How a fake app successfully social-engineered Gen-Z
