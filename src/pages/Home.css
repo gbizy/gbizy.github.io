@@ -127,11 +127,6 @@
   }
 }
 
-.grid-hello .buttoncontainer {
-  display: inline-block;
-  margin-right: 20px;
-}
-
 .grid-hello p {
   font-size: 20px;
 }
@@ -201,13 +196,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  #hero .button1 {
-    margin-right: 0px;
-    width: 56%;
-  }
-  #hero .button2 {
-    width: 56%;
-  }
 
   .grid-hello h1 {
     font-size: 60px;
@@ -220,41 +208,11 @@
     text-align: center;
   }
 
+  .animation-display img {
+    max-width: 80%;
+  }
+
   footer {
     display: none;
-  }
-}
-
-/* Adjust the font size and spacing for smaller screens */
-@media screen and (max-width: 480px) {
-  .grid-hello h1 {
-    font-size: 60px;
-  }
-  .grid-hello h2 {
-    margin-bottom: 20px;
-  }
-  .grid-hello p {
-    font-size: 14px;
-  }
-  .grid-profile {
-    height: 85%;
-  }
-
-  .grid-profile h1 {
-    font-size: 24px;
-  }
-  .grid-profile hr {
-    width: 30%;
-  }
-  .grid-profile p {
-    font-size: 18px;
-  }
-}
-
-/* Adjust the profile image size for smaller screens */
-@media screen and (max-width: 320px) {
-  .profile img {
-    width: 150px;
-    height: 150px;
   }
 }
