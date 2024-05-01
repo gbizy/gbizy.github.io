@@ -2,6 +2,7 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import "./Contact.css";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
@@ -92,6 +93,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

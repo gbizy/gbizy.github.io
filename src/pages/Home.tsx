@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 //import logo from "./guy_export_2.gif";
 
 function Hero() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   // document.body.style.background = "linear-gradient(90deg, #cedbe6 35%, #fff 0%)";
   return (
     <>

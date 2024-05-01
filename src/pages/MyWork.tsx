@@ -1,7 +1,5 @@
 import "./MyWork.css";
-import VideoPlayer from "../components/VideoPlayer";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 export default function MyWork() {
   return (
@@ -34,7 +32,7 @@ export default function MyWork() {
                 href="https://www.linkedin.com/posts/gbeny_cybersecurity-infosec-cybersecurityawareness-activity-7127708648000081920-PIIx?utm_source=share&utm_medium=member_desktop"
                 target="_blank"
               >
-                How a fake app successfully social-engineer'ed Gen-Z
+                How a fake app successfully social-engineered Gen-Z
               </a>{" "}
               <br />│ └───
               <a
