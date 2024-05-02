@@ -51,7 +51,7 @@ export default function About() {
             <div className="alwaysPlug">
               <p>
                 <br />
-                To learn more about what I have accomplished, please check out
+                {/* To learn more about what I have accomplished, please check out
                 my{" "}
                 <Link
                   to="route"
@@ -61,8 +61,8 @@ export default function About() {
                   }}
                 >
                   Resume
-                </Link>
-                . For examples of my work, see my{" "}
+                </Link> */}
+                For examples of my work, see my{" "}
                 <Link to="/mywork">Portfolio</Link>.{" "}
               </p>
             </div>

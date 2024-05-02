@@ -33,7 +33,7 @@ const Navigation = () => {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/route"
               onClick={(event) => {
@@ -44,7 +44,7 @@ const Navigation = () => {
             >
               Resume
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/mywork" onClick={closeMenu}>
               My Work
