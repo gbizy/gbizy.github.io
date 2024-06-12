@@ -26,12 +26,14 @@ export default function MyWork() {
               </a>{" "}
               <br />
               ├───Blogs & Writeups <br />│ ├───
+              <a href="https://medium.com/@guyby/us-cyber-open-2024-challenges-writeup-c0761efacb8d">
+                US Cyber Open CTF Challenges Writeup
+              </a>{" "}
+              <br />│ ├───
               <a href="https://medium.com/@guyby/dod-cyber-sentinel-may-2024-osint-solutions-672c5eda5b6c">
                 Completing OSINT challenges in a DoD-backed CTF
               </a>{" "}
-              <br />
-              {/* │ ├───<a href="https://medium.com/@guyby/dod-cyber-sentinel-may-2024-osint-solutions-672c5eda5b6c">Completing OSINT challenges in a DoD-backed CTF</a>  <br/> */}
-              │ ├───
+              <br />│ ├───
               <a
                 href="https://medium.com/@guyby/how-a-fake-app-successfully-social-engineered-gen-z-723d5ddf7fa3"
                 target="_blank"
