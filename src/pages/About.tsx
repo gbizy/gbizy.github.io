@@ -17,7 +17,7 @@ export default function About() {
             </div>
             <div className="paragraphsDiv">
               <p>
-                My name is Guy and am a cybersecurity professional with strong
+                My name is Guy and I am a cybersecurity professional with strong
                 industry foundational knowledge and experience in governance,
                 risk & compliance.{" "}
               </p>
