@@ -1,4 +1,6 @@
 name: Deploy
+resources:
+  - CNAME
 
 on:
   push:
